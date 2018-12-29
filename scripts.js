@@ -128,7 +128,5 @@ var handleFormSubmit = function handleFormSubmit(event) {
     * its class name, then attach the `handleFormSubmit()` function to the 
     * `submit` event.
     */
-document.addEventListener('DOMContentLoaded', function () {
-    var form_ = document.getElementsByClassName('contact-form')[0];
-    form_.addEventListener('submit', handleFormSubmit);
-});
+ var form_ = document.getElementsByClassName('contact-form')[0];
+ form_.addEventListener('submit', handleFormSubmit);
