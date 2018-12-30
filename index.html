@@ -27,8 +27,8 @@
       <input class="contact-form__input contact-form__input--text" id="apt" name="apt" type="text" value="none"/>
     </div>
     <div class="contact-form__input-group">
-      <label class="contact-form__label" for="billingState">State</label>
-      <select class="contact-form__input contact-form__input--select" id="billingState" name="billingState">
+      <label class="contact-form__label" for="state">State</label>
+      <select class="contact-form__input contact-form__input--select" id="state" name="state">
         <option value="N/A">Pick One</option>
         <option value="AL">AL</option>
       	<option value="AK">AK</option>
@@ -86,8 +86,8 @@
     <div class="contact-form__input-group">
       <label class="contact-form__label" for="city">City</label>
       <input class="contact-form__input contact-form__input--text" id="city" name="city" type="text"/>
-      <label class="contact-form__label" for="billingZipCode">Zip</label>
-      <input class="contact-form__input contact-form__input--text" id="billingZipCode" name="billingZipCode" type="text" maxlength="5"/>
+      <label class="contact-form__label" for="zipCode">Zip</label>
+      <input class="contact-form__input contact-form__input--text" id="zipCode" name="zipCode" type="text" maxlength="5"/>
       <label class="contact-form__label" for="email">Email</label>
       <input class="contact-form__input contact-form__input--email" id="email" name="email" type="text" maxlength="20"/>
       <label class="contact-form__label" for="phone">Phone (no spaces)</label>
@@ -113,6 +113,7 @@
       <input class="contact-form__input contact-form__input--text" id="cardCvv" name="cardCvv" type="text" maxlength="4"/>
     </div>
     <input name="billingCountry" type="hidden" value="United States"/>
+    <input name="country" type="hidden" value="United States"/>
     <button class="contact-form__button" type="submit">Create Profile</button>
   </form>
 </section>
