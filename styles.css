@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-  
+
 /* Heydon Pickering’s lobotomized owl. Details: https://bit.ly/1H7MXUD */
 *+* {
   margin-top: 16px;
@@ -124,7 +124,7 @@ h1,h2 {
       }
 
 .contact-form__input:focus,.contact-form__input:active {
-      border-color: #686a69;
+      border-color: #ffc0cb;
       outline: 0;
     }
 
